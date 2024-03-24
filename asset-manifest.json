@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.91905be3.css",
+    "main.js": "/react-portfolio/static/js/main.dc408b97.js",
+    "static/media/img.jpeg": "/react-portfolio/static/media/img.602c71e2769eb75daeef.jpeg",
+    "static/media/photo7.JPG": "/react-portfolio/static/media/photo7.12812d2a797e96f4c51c.JPG",
+    "static/media/photo12.JPG": "/react-portfolio/static/media/photo12.ebee19682aea0c671d2d.JPG",
+    "static/media/photo6.JPG": "/react-portfolio/static/media/photo6.a564a83e1d6bc3dd0d08.JPG",
+    "static/media/photo5.JPG": "/react-portfolio/static/media/photo5.013f81795e2d3fb222f4.JPG",
+    "static/media/photo3.JPG": "/react-portfolio/static/media/photo3.5130c4299fb505a49276.JPG",
+    "static/media/photo2.JPG": "/react-portfolio/static/media/photo2.7c545f7ba4aff948c34e.JPG",
+    "static/media/photo4.JPG": "/react-portfolio/static/media/photo4.7435bc0a82ef22b7daba.JPG",
+    "static/media/photo1.JPG": "/react-portfolio/static/media/photo1.c9593f1660285ee0526e.JPG",
+    "static/media/photo11.JPG": "/react-portfolio/static/media/photo11.40f7a0040b8f537ae683.JPG",
+    "static/media/photo10.JPG": "/react-portfolio/static/media/photo10.dff4ccb14616521ff8e0.JPG",
+    "static/media/photo8.JPG": "/react-portfolio/static/media/photo8.570d169a103c0b812407.JPG",
+    "static/media/photo9.JPG": "/react-portfolio/static/media/photo9.500c92a4b5ebf5266da8.JPG",
+    "static/media/about1.JPG": "/react-portfolio/static/media/about1.7c7594ac68e7b3ce0cc8.JPG",
+    "index.html": "/react-portfolio/index.html",
+    "main.91905be3.css.map": "/react-portfolio/static/css/main.91905be3.css.map",
+    "main.dc408b97.js.map": "/react-portfolio/static/js/main.dc408b97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91905be3.css",
+    "static/js/main.dc408b97.js"
+  ]
+}
