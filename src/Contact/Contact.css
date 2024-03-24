@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+.Contact {
+    text-align: left;
+}
+
+.center-wrapper-contact {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    width: 55%;
+    height: 80vh;
+}
+
+.content-wrapper-contact {
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.inner-wrapper-contact {
+    margin-left: 75px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+.gallery {
+    text-align: left;
+}
+
+.center-wrapper-gallery {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    width: 55%;
+    height: 80vh;
+}
+
+.content-wrapper-gallery {
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.inner-wrapper-gallery {
+    margin-left: 75px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* TEXT */
+
+.text-gallery .description {
+    font-weight: 500;
+    font-family: 'Inter';
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+/* GALLERY */
+
+.photos {
+    width: 100%;
+    height: 80%;
+}
+
+.photos p {
+    text-align: center;
+    line-height: 200px;
+}
+
+
+/* FIRST ROW */
+
+.firstrow {
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+
+.firstrow .photo1,
+.firstrow .photo2,
+.firstrow .photo5 {
+    background-color: rgb(245, 245, 245);
+    margin: 0px 24px 10px 0px;
+    border-radius: 10px
+}
+
+
+/* SECOND ROW */
+
+.secondrow {
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+
+.secondrow .photo8,
+.secondrow .photo3,
+.secondrow .photo6 {
+    background-color: rgb(245, 245, 245);
+    float: left;
+    margin: 0px 24px 10px 0px;
+    border-radius: 10px
+}
+
+
+/* THIRD ROW */
+
+.thirdrow {
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+
+.thirdrow .photo4,
+.thirdrow .photo7,
+.thirdrow .photo11 {
+    float: right;
+    margin-left: 0;
+    margin: 0px 40px 10px 0px;
+    border-radius: 10px
+}
+
+
+/* FOURTH ROW */
+
+.fourthrow {
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+
+.fourthrow .photo9,
+.fourthrow .photo10,
+.fourthrow .photo12 {
+    float: left;
+    margin: 0px 65px 10px 0px;
+    border-radius: 10px
+}

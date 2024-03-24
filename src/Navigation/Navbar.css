@@ -1,0 +1,133 @@
+@import '../Variables/Var.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-wrapper {
+    width: 100%;
+    height: 12vh;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-areas: 
+    'title menu';
+    align-items: center;
+    padding: var(--page_padding);
+}
+
+.nav-wrapper .left {
+    width: 100%;
+    height: 100%;
+    grid-area: title;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+.nav-wrapper .left .title  {
+    font-size: 2rem;
+    font-family: var(--font_main);
+}
+
+.nav-wrapper .right {
+    width: 100%;
+    height: 100%;
+    grid-area: menu;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-wrapper .right .menu {
+    font-family: var(--font_mont);
+    font-weight: 700;
+    transition: .1s ease-in-out;
+}
+
+.nav-wrapper .right .menu:hover {
+    cursor: pointer;
+    color: #313131;
+}
+
+/* DROP DOWN MENU */
+
+.menu-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    background-color: rgba(255, 255, 255, 0.315);
+    backdrop-filter: blur(5px);
+    -webkit-mask: linear-gradient(0deg, transparent, white 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -35%;
+    /* top: 0; */
+    transition: .3s ease-in-out;
+    z-index: 1;
+}
+
+
+.menu-wrapper .close {
+    position: absolute;
+    top: 32px;
+    right: 37px;
+    font-weight: 700;
+    font-family: var(--font_mont);
+    transition: .1s ease-in-out;
+}
+
+.menu-wrapper .close:hover {
+    cursor: pointer;
+    color: #313131;
+}
+
+.menu-wrapper ul {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+
+.menu-wrapper ul a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font_mont);
+    font-weight: 700;
+    transition: .1s ease-in-out;
+}
+
+.menu-wrapper ul a::before {
+    content: '';
+    width: 105px;
+    border-bottom: solid 1px #0000001c;
+    position: absolute;
+    left: 0;
+    margin-left: 35px;
+    padding-top: 10px;
+    transition: .1s ease-in-out;
+}
+
+.menu-wrapper ul a::after {
+    content: '';
+    width: 105px;
+    border-bottom: solid 1px #0000001c;
+    position: absolute;
+    right: 0;
+    margin-right: 35px;
+    padding-top: 10px;
+    transition: .1s ease-in-out;
+}
+
+.menu-wrapper ul a:hover {
+    color: #313131;
+}
+.menu-wrapper ul a:hover::after {
+    border-bottom: solid 1px #0000007c;
+}
+.menu-wrapper ul a:hover::before {
+    border-bottom: solid 1px #0000007c;
+}

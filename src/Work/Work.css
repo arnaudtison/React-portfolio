@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+.Work {
+    text-align: left;
+}
+
+.center-wrapper-work {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    width: 55%;
+    height: 80vh;
+}
+
+.content-wrapper-work {
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -60%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.inner-wrapper-work {
+    margin-left: 75px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* TEXT */
+
+.text-work .description {
+    font-weight: 500;
+    font-family: 'Inter';
+    padding-top: 15px;
+}
+
+
+/* GALLERY */
+
+.photos {
+    width: 100%;
+    height: 80%;
+}
+
+.photos p {
+    text-align: center;
+    line-height: 200px;
+}
+
+
+/* FIRST ROW */
+
+.firstrow {
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+
+.firstrow .img1,
+.firstrow .img2,
+.firstrow .img3 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(245, 245, 245);
+    float: left;
+    margin: 10px auto;
+    border-radius: 10px
+}
+
+
+/* SECOND ROW */
+
+.secondrow {
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+
+.secondrow .img4,
+.secondrow .img5,
+.secondrow .img6 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(245, 245, 245);
+    float: left;
+    margin: 10px auto;
+    border-radius: 10px
+}
